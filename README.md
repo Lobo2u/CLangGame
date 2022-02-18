@@ -6,11 +6,12 @@ Linux + C Lang.
 working on progress... waiting till complete.
 
 function to add
--Village
+
+#Village
 when character's hp is lower than 0 automatically return to village and heal.(like pokemon!)
 item : heal
 NPC
 
--Dungeon 
+#Dungeon 
 monster's image
 additional event : like quest! NPC!

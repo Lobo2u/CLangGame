@@ -1,4 +1,6 @@
 # CLangGame
+project member : eunsoo jo, dohyun yoon
+
 RPG GAME USING C LANG
 
 Linux + C Lang.
@@ -13,7 +15,15 @@ when character's hp is lower than 0 automatically return to village and heal.(li
 item : heal
 NPC
 
-#Dungeon 
+#Dungeon ogress... waiting till complete.
+
+function to add
+
+#Village
+
+when character's hp is lower than 0 automatically return to village and heal.(like pokemon!) item : heal NPC
+
+#Dungeon
 
 monster's image
 additional event : like quest! NPC!

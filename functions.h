@@ -59,7 +59,7 @@ int RPGRandom(int iPercent);
 
 void init_player(Player *p);
 void init_dungeon(char dungeon[MAP_H][MAP_W], const Player *p);
-void draw_dungeon(const char dungeon[MAP_H][MAP_W], const Player *p);
+void draw_dungeon(char dungeon[MAP_H][MAP_W], const Player *p);
 
 int use_potion(Player *p);
 void faint_to_village(Player *p);

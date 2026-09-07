@@ -31,7 +31,7 @@ static const Monster MONSTERS[] = {
 		"    .--.\n"
 		"   |o  o|\n"
 		"    \\__/",
-		30, 14, 3
+		28, 12, 3
 	}
 };
 
@@ -181,7 +181,7 @@ void init_dungeon(char dungeon[MAP_H][MAP_W], const Player *p)
 	}
 }
 
-void draw_dungeon(const char dungeon[MAP_H][MAP_W], const Player *p)
+void draw_dungeon(char dungeon[MAP_H][MAP_W], const Player *p)
 {
 	int y;
 	int x;
@@ -233,6 +233,7 @@ void faint_to_village(Player *p)
 	p->hp = p->maxHp;
 	p->x = 1;
 	p->y = 1;
+	pause_continue();
 }
 
 void talk_elder(Player *p)
